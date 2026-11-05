@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "task_id": "replace-with-task-id",
+  "base_sha": "replace-with-git-sha",
+  "agent": "replace-with-agent",
+  "model": "unknown",
+  "started_at": null,
+  "wall_seconds": null,
+  "human_review_minutes": null,
+  "retry_count": 0,
+  "checks": [{"name": "unit-tests", "command": "replace-with-command", "exit_code": null, "passed": false}],
+  "independent_review": {"status": "FAIL", "evidence": []},
+  "result": "not-run",
+  "pull_request": null
+}
