@@ -17,6 +17,7 @@ Repository-level files provide continuity:
 - [August 2026 — Build the Harness, Not Another Demo](months/2026-08/README.md)
 - [September 2026 — Bounded Autonomy](months/2026-09/README.md)
 - [October 2026 — Close the Loop](months/2026-10/README.md)
+- [November 2026 — Trust the Evidence, Not the Agent](months/2026-11/README.md)
 
 ## Principles
 
