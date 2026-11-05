@@ -1,0 +1,15 @@
+{
+  "task_id": "example-task",
+  "repository": "owner/repository",
+  "base_revision": "",
+  "head_revision": "",
+  "harness": "",
+  "model": "",
+  "started_at": "",
+  "finished_at": "",
+  "checks": [],
+  "retries": 0,
+  "human_review_minutes": 0,
+  "result": "accepted",
+  "notes": ""
+}

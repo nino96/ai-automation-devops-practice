@@ -1,0 +1,10 @@
+id: example-task
+repository: owner/repository
+objective: Describe the measurable end state.
+allowed_paths:
+  - path/or/module
+checks:
+  - replace-with-real-check
+risk: low
+human_review_required: true
+notes: Keep the task small and mechanically verifiable.

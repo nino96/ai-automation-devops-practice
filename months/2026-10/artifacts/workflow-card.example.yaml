@@ -1,0 +1,18 @@
+name: example-workflow
+trigger: Describe when this workflow runs.
+inputs:
+  - Describe required inputs.
+allowed_context:
+  - Describe approved information sources.
+output_contract:
+  - Describe what a useful result must contain.
+evidence:
+  - Describe how important claims should be supported.
+human_decision:
+  - Describe the decision or approval that remains human-owned.
+metrics:
+  - human_minutes
+  - correction_count
+  - passed_quality_check
+retention:
+  - Describe what should be kept for the next run.
