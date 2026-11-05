@@ -1,0 +1,26 @@
+# Template only: NOT an enforcement policy. Never commit secrets.
+schema_version: 1
+runtime: replace-with-actual-agent-runtime
+runtime_version: pin-or-document
+model_gateway: openai-compatible-internal-endpoint
+tools:
+  - name: repository-read
+    permission: read
+    source: local
+  - name: shell
+    permission: denied-by-default
+    source: local
+filesystem:
+  writable_paths: ["/workspace"]
+  readonly_paths: ["/fixtures"]
+  forbidden_paths: ["/synthetic-secrets"]
+network:
+  default: deny
+  allowed_destinations: []
+credentials:
+  source: environment-or-secret-store
+  commit_values: false
+checks:
+  - forbidden_secret_read
+  - readonly_mount_write
+  - denied_egress
